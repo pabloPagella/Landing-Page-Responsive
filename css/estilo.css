@@ -1,0 +1,212 @@
+@media only screen and (min-width: 300px) {
+  .container {
+    background-color: #000000;
+    padding: 10px;
+    width: 80%;
+  }
+
+    {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+  h1 {
+    display: block;
+    margin-bottom: -50px;
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+    font-size: 3.5vw;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  h2 {
+    display: block;
+    margin-top: 50px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    color: #757575;
+    font-size: 24px;
+  }
+
+  h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #757575;
+    font-size: 24px;
+  }
+
+  #nombre {
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    height: 40px;
+    color: white;
+    background: grey;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    margin-top: 60px;
+    margin-bottom: 50px;
+    text-align: center;
+  }
+
+  #correo {
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    height: 40px;
+    color: white;
+    background: grey;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    display: block;
+    margin-top: -30px;
+    margin-bottom: 50px;
+    text-align: center;
+  }
+
+  #boton {
+    border: none;
+    border-radius: 5px;
+    width: 60%;
+    height: 40px;
+    color: black;
+    background: #660000;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    font-size: 15px;
+    border: 0px;
+    padding: 10px;
+    display: block;
+    margin-top: -30px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .botons:hoover {
+    background-color: #000000;
+  }
+
+  p {
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+    font-size: 14px;
+  }
+
+  .info {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: #ffffff;
+    font-size: 12px;
+  }
+
+  body {
+    background-image: url("http://assets.vg247.com/current//2015/09/gta-5-artwork-evenements-en-mode-libre-1152x490.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+  }
+
+  .card-panel {
+    background-color: #323232;
+  }
+
+  .divider {
+    color: #363636;
+    background-color: #363636;
+  }
+
+  .escondido {
+    display: none;
+    background-color: #000000;
+    background-position: center;
+    padding: 100px;
+    width: |100%;
+    height: 100%;
+  }
+
+    {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  #nombre {
+    display: block;
+    padding: 0px;
+    margin-left: 115px;
+    margin-right: 100px;
+    width: 60%;
+  }
+
+  #correo {
+    display: block;
+    padding: 0px;
+    margin-left: 115px;
+    margin-right: 100px;
+    width: 60%;
+  }
+
+  #boton {
+    display: block;
+    padding: 0px;
+    margin-left: 200px;
+    margin-right: 100px;
+    width: 30%;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  #nombre {
+    display: block;
+    padding: 0px;
+    margin-left: 200px;
+    margin-right: 100px;
+    width: 50%;
+  }
+
+  #correo {
+    display: block;
+    padding: 0px;
+    margin-left: 200px;
+    margin-right: 100px;
+    width: 50%;
+  }
+
+  #boton {
+    display: block;
+    padding: 0px;
+    margin-left: 300px;
+    margin-right: 100px;
+    width: 25%;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  #nombre {
+    margin-left: 300px;
+    margin-right: 100px;
+    width: 50%;
+  }
+
+  #correo {
+    margin-left: 300px;
+    margin-right: 100px;
+    width: 50%;
+  }
+
+  #boton {
+    margin-left: 450px;
+    margin-right: 100px;
+    width: 25%;
+  }
+}
